@@ -26,3 +26,6 @@ LabConnect is a lightweight, privacy-conscious program designed to help research
 ```
 git clone https://github.com/YourOrg/LabConnect.git
 cd LabConnect
+
+```
+pip install -r requirements.txt

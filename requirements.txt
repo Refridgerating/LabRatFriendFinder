@@ -1,0 +1,36 @@
+# --- Core Framework ---
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-WTF==1.2.1
+Flask-Login==0.6.3
+
+# --- Database ---
+SQLAlchemy==2.0.29
+
+# --- Authentication & Security ---
+Flask-Bcrypt==1.0.1
+itsdangerous==2.2.0
+email-validator==2.1.0.post1
+
+# --- API & Serialization ---
+marshmallow==3.21.1
+marshmallow-sqlalchemy==1.1.0
+
+# --- Environment & Config ---
+python-dotenv==1.0.1
+
+# --- Frontend/UX helpers ---
+Jinja2==3.1.3
+
+# --- Optional: Realtime messaging (chat, notifications) ---
+Flask-SocketIO==5.3.6
+eventlet==0.36.0
+
+# --- Testing & Development ---
+pytest==8.3.1
+black==24.8.0
+flake8==7.1.0
+
+# --- Deployment ---
+gunicorn==22.0.0
